@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className="navbar-header">
                 <B4Navbar.Brand href="#">
                     <img src={logo} alt="image" />
-                    <h2>SolarMineX</h2>
+                    <h3>SolarMineX</h3>
                 </B4Navbar.Brand>
                 
                 <div className="d-flex">

@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import { useEffect } from 'react'
 import NavBar from '../components/nav-bar'
+import Intro from '../components/intro'
+import Features from '../components/features'
+import Specification from '../components/specification'
 import Footer from '../components/footer'
 
 export default function HomePage() {
@@ -14,11 +17,9 @@ export default function HomePage() {
       </Head>
       
       <NavBar />
-      {/* <Features />
-      <Partners />
-      <Description />
-      <Answers />
-      <Subscribe /> */}
+      <Intro />
+      <Features />
+      <Specification />
       <Footer />
     </div>
   )

@@ -26,15 +26,15 @@ body{
 /* ---------------- Typography -----------------*/
 
 h1{
-	font-size: 70px;
+	font-size: 60px;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h3{
-	font-size: 28px;
+	font-size: 30px;
 }
 
 h4{
@@ -363,19 +363,6 @@ span{
     justify-content: space-between;    
 }
 
-.swiper-pagination-bullet {
-    width: 20px;
-    height: 4px;
-    border-radius: 0;    
-    margin: 5px 7px;
-    background: #D6D6D6;
-    transition: opacity .2s ease;
-}
-
-.swiper-pagination-bullet-active {
-    background: #c49b66;
-}
-
 .anchor {
     display:block;
     padding-top:79px;
@@ -387,34 +374,4 @@ span{
 }
 .modal-content {
     border: 0px solid white;
-}
-.mfp-close {
-    position: absolute;    
-    overflow: visible;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    -webkit-appearance: none;
-    display: block;
-    outline: none;
-    padding: 0;
-    z-index: 1046;
-    box-shadow: none;
-    touch-action: manipulation;
-    color: #FFF;
-    right: -6px;
-    top: -36px;
-    text-align: right;
-    padding-right: 6px;
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
-    text-decoration: none;
-    text-align: center;
-    opacity: 0.65;
-    padding: 0 0 18px 10px;
-    color: #FFF;
-    font-style: normal;
-    font-size: 28px;
-    font-family: Arial, Baskerville, monospace;
 }

@@ -21,7 +21,7 @@ body{
 	overflow-x: hidden!important;
 	position: relative;
 	color: #0B0C0E;	
-	background: #f2f2f2;
+	background: #FFFFFF;
 }
 
 .section-padding{
@@ -156,6 +156,9 @@ a, a:hover, a:focus{
 	cursor: pointer;
 	width: fit-content;
 }
+.btn-shopnow:hover {
+	color: #018ad1;
+}
 
 .intro-content .content {
 	width: 100%;
@@ -221,6 +224,7 @@ a, a:hover, a:focus{
 
 .section-spec {
 	padding-top: 400px;
+	padding-bottom: 80px;
 }
 
 .spec-content-image {
@@ -232,16 +236,19 @@ a, a:hover, a:focus{
 }
 
 .spec-bg-deco {
-	position: absolute;
-	right: 0px;
-	top: 320px;
-	mix-blend-mode: color-burn;
+    position: absolute;
+    width: 50%;
+    right: -180px;
+    top: 320px;
+    mix-blend-mode: darken;
+    opacity: 0.45;
 }
 
 .spec-bg-line03 {
 	position: absolute;	
 	left: 30px;
 	top: 30px;
+	max-width: 50%;
 }
 
 .spec-content .title {
@@ -265,28 +272,48 @@ a, a:hover, a:focus{
 	margin-top: 48px;
 }
 
-.section-partners {
-	background-image: url('../img/bg02.jpg');
-	padding-top: 120px;
-	padding-bottom: 120px;
+.section-howtouse {
+	background-image: url('../img/bg01.jpg');
+	padding-bottom: 240px;
 }
-.section-description {
-	padding: 60px 90px 180px 90px;
+
+.howtouse-bg-deco {
+	position: absolute;
+	width: 60%;
+	left: 0px;
+	top: 0px;
+	mix-blend-mode: color-burn;
 }
-.section-answers {
-	padding: 60px 90px 90px 90px;
+
+.howtouse-bg-line01 {
+	position: absolute;	
+	left: 30px;
+	top: -150px;
 }
-.section-subscribe {
-	padding: 60px 90px 90px 90px;
+
+.howtouse-content-image {
+	text-align: center;
+}
+
+.howtouse-content-image img {
+	max-width: 70%;
+}
+
+.howtouse-content .title {
+	position: relative;
+	color: white;
+	margin-top: 80px;
+}
+
+.howtouse-content ul li {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: white;
 }
 
 .section-title {
 	color: white;
 	font-size: 60px;
-}
-.section-partners .section-title {
-	font-size: 38px;
-	margin-bottom: 120px;
 }
 
 .section-description .section-title {
@@ -295,36 +322,6 @@ a, a:hover, a:focus{
 
 .section-answers .section-title {
 	margin-bottom: 80px;
-}
-
-.section-subscribe .section-title {
-	margin-bottom: 60px;
-}
-
-.section-subscribe .title-secondary {
-	font-size: 24px;
-}
-
-
-.features-title-main {
-	color: #04489e;
-}
-
-.title-secondary {
-	color: #ff00ff;
-}
-
-.features-item {
-	max-width: 430px;
-}
-.features-item img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 32px;
-}
-
-.text-description {
-	color: #027ef3;
 }
 
 .logos {
@@ -342,46 +339,53 @@ a, a:hover, a:focus{
 }
 
 .questions {	
-	font-size: 28px;
-	color: white;
+	font-size: 24px;
+	font-weight: 600;
 }
 .questions .dropdown {
+	width: 24px;
 	cursor: pointer;
 }
 
-.subscribe-item {
-	font-size: 20px;
-}
-.subscribe-item img {
-	max-width: 80px;
-	width: auto;
-	height: auto;
+.qa-section .description {
+	font-size: 16px;
 }
 
-.btn-subscribe {
-	border-radius: 50px;
-	padding: 2px 50px;
-	font-size: 32px;
-	color: white;
-	background-image: linear-gradient(to right, #1461e8, #8f68fd);
-	cursor: pointer;
-	width: fit-content;
+.section-system {
+	background-image: url('../img/bg02.jpg');
+	height: 780px;
+	padding-left: 5%;
+	clip-path: polygon(0% 0%, 0% 80%, 50% 100%, 100% 100%, 100% 0%);
 }
 
-.divider-fade:before {
-    content: '';
-    display: block;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2px;
-    background: radial-gradient(ellipse at center,#d1dbe7 0,rgba(255,255,255,0) 75%);
+.system-content .title {
+	position: relative;
+	color: #018ad1;
+	margin-top: 80px;
 }
+
+.system-content ul li {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.nav-item .nav-link {
+	padding: 0px;
+}
+
 /* -------------------------------------------------------
                      Footer 
 -------------------------------------------------------- */
+.footer {
+	border-top: 1px solid #cbcec4;
+}
+
+h3.heading {
+	color: #018ad1;
+	font-size: 40px;
+	font-weight: 600;
+}
+
 .social-icon {
 	padding: 16px 12px;
 }
@@ -389,3 +393,4 @@ a, a:hover, a:focus{
 .social-icon svg {
 	width: 26px;
 }
+

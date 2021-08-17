@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Footer = () => {
     return (
         <footer className="footer text-center">
-			<div className="container pt-4">
+			<div className="container pt-5">
 				<div className="row">
 					<div className="col-lg-4 mb-5 mb-lg-0 text-center">
-						<h4 className="heading mb-3">SolarMineX</h4>
+						<h3 className="heading mb-3">SolarMineX</h3>
 
 						<p className="mt-4 text-sm opacity-8 pr-lg-4">
 							Smaugs Marketplace is a complete custom DeFi, governance, and NFT ecosystem + marketplace.

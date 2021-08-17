@@ -4,6 +4,8 @@ import NavBar from '../components/nav-bar'
 import Intro from '../components/intro'
 import Features from '../components/features'
 import Specification from '../components/specification'
+import HowToUse from '../components/how-to-use'
+import SolarSystem from '../components/solar-system'
 import Footer from '../components/footer'
 
 export default function HomePage() {
@@ -20,6 +22,8 @@ export default function HomePage() {
       <Intro />
       <Features />
       <Specification />
+      <HowToUse />
+      <SolarSystem/>
       <Footer />
     </div>
   )

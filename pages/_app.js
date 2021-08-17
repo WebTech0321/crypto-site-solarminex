@@ -5,10 +5,10 @@ import React, {useState, useEffect} from "react"
 import Loading from '../components/loading'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Router from "next/router";
 
-library.add(fab, faEnvelope)
+library.add(fab, faEnvelope, faChevronDown, faChevronUp)
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);

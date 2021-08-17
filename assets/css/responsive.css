@@ -52,9 +52,6 @@
 		top: 200px;
 	}
 
-	.tona-header{
-		background-position: 50% 0% !important;
-	}
 	.feature-item img {
 		width: 30px;
 	}
@@ -85,18 +82,8 @@
 		width: 90%;
 	}
 
-	.section-partners {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	.section-description {
-		padding: 20px 30px 60px 30px;
-	}
-	.section-answers {
-		padding: 20px 30px 30px 30px;
-	}
-	.section-subscribe {
-		padding: 20px 30px 30px 30px;
+	.section-spec {
+		padding-top: 160px;
 	}
 }
 
@@ -111,5 +98,14 @@
 
 	.navbar-default .navbar-nav>li {
 		margin: 0px 16px;
+	}
+
+	.spec-bg-deco {
+		width: 100%;
+		top: 520px;
+	}
+
+	.section-howtouse {
+		padding-bottom: 120px;
 	}
 }

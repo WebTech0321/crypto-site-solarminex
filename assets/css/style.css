@@ -12,6 +12,36 @@ TABLE OF CONTENTS
 
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Geogrotesque:300,400,600,700');
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url(../font/Geogtq-Bd.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url(../font/Geogtq-Sb.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url(../font/Geogtq-Md.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url(../font/Geogtq-Rg.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url(../font/Geogtq-Lg.ttf);
+	font-weight: 300;
+}
 /* -------------------------------------------------------
                      Global 
 -------------------------------------------------------- */
@@ -180,7 +210,7 @@ a, a:hover, a:focus{
 }
 
 .title {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .content-text .title {
@@ -227,6 +257,11 @@ a, a:hover, a:focus{
 	padding-bottom: 160px;
 }
 
+.spec-content .title {
+	position: relative;
+	color: #018ad1;
+}
+
 .spec-content-image {
 	text-align: center;
 }
@@ -237,6 +272,7 @@ a, a:hover, a:focus{
 
 .spec-content {
 	max-width: 480px;
+	font-weight: 500;
 }
 
 .spec-bg-deco {
@@ -255,16 +291,6 @@ a, a:hover, a:focus{
 	max-width: 50%;
 }
 
-.spec-content .title {
-	position: relative;
-	color: #018ad1;
-}
-
-.spec-content ul li {
-	font-size: 16px;
-	margin-bottom: 4px;
-}
-
 .feature-item {
 	text-align: center;
 }
@@ -280,6 +306,7 @@ a, a:hover, a:focus{
 	position: absolute;
 	bottom: 300px;
 	width: 100%;
+	font-weight: 500;
 }
 
 .howtouse-bg-deco {
@@ -351,17 +378,13 @@ a, a:hover, a:focus{
 .system-content {
 	padding-left: 5%;
 	max-width: 400px;
+	font-weight: 500;
 }
 
 .system-content .title {
 	position: relative;
 	color: #018ad1;
 	margin-top: 110px;
-}
-
-.system-content ul li {
-	font-size: 16px;
-	margin-bottom: 4px;
 }
 
 .nav-item .nav-link {
@@ -372,6 +395,9 @@ a, a:hover, a:focus{
 	padding: 90px 0px 45px;
 }
 
+.premining-content {
+	font-weight: 500;
+}
 .premining-content .title,
 .roadmap-content .title,
 .team-content .title {
@@ -407,6 +433,7 @@ a, a:hover, a:focus{
 .member {
 	padding: 30px 15px;
 	font-size: 16px;
+	font-weight: 500;
 	color: #018ad1;
 }
 
@@ -434,7 +461,7 @@ a, a:hover, a:focus{
 
 .questions {	
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 700;
 }
 .questions .dropdown {
 	width: 24px;
@@ -445,6 +472,7 @@ a, a:hover, a:focus{
 
 .qa-section .description {
 	font-size: 20px;
+	font-weight: 500;
 	width: 90%;
 	margin-bottom: 20px;
 }

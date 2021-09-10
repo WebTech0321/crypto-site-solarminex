@@ -44,7 +44,7 @@ const FAQ = () => {
 
             <div className="qa-section">
                 {dataQA.map((item,idx) => (
-                    <>
+                    <div key={idx}>
                         <div className="questions d-flex align-items-center justify-content-between">
                             <div dangerouslySetInnerHTML={{__html: item.title }}></div>
                             <FontAwesomeIcon 
@@ -66,7 +66,7 @@ const FAQ = () => {
                                 }}
                             dangerouslySetInnerHTML={{__html: item.description }}
                         ></div>
-                    </>
+                    </div>
                 ))}
             </div>
         </div>

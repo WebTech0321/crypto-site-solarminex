@@ -53,11 +53,10 @@
 	}
 
 	.feature-item img {
-		width: 30px;
+		width: 50px;
 	}
 	.feature-item-caption {		
 		font-size: 12px;
-		margin-top: 24px;
 	}
 
 	.caption{
@@ -77,7 +76,6 @@
 
 		
 	.section-features {
-		padding: 20px 0px 30px 0px;
 		left: 5%;
 		width: 90%;
 	}
@@ -85,9 +83,30 @@
 	.section-spec {
 		padding-top: 160px;
 	}
+
+
+	.where-content {
+		bottom: 40px;
+	}
+
+	.premining-content-image {
+		margin-top: 40px;
+	}
+
+	
+	.member {
+		padding: 20px 20px;
+	}
+	.member img {
+		width: 120px;
+	}
+
+	.section-faq {
+		padding-top: 150px;
+	}
 }
 
-@media (max-width: 1024px){
+@media (max-width: 992px){
 	.navbar-default{
 		padding: 30px 12px 16px 16px;
 	}
@@ -103,9 +122,5 @@
 	.spec-bg-deco {
 		width: 100%;
 		top: 520px;
-	}
-
-	.section-howtouse {
-		padding-bottom: 120px;
 	}
 }

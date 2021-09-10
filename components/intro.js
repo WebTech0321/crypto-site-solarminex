@@ -3,6 +3,7 @@ import { Carousel, CarouselItem } from "react-bootstrap"
 import imgDeco from '../assets/img/decoration.png'
 import imgLine01 from '../assets/img/line01.png'
 import imgLine02 from '../assets/img/line02.png'
+import Features from "./features"
 
 const data = [
     {
@@ -11,21 +12,21 @@ const data = [
             bottom: '0px',
             right: '0px'
         },
-        title: 'Solar systems',
-        subtitle: 'Solar Home',
-        description: 'new design and available for any home'
+        title: 'Fotovoltaik sistem ile',
+        subtitle: 'kripto para madenciliği',
+        description: 'Güneşten gelen enerjiyi SolarMineX tokene dönüştürerek madencil'
     },
-    {
-        image: require('../assets/img/charger.png'),
-        imageStyle: {
-            bottom: '80px',
-            right: '40px',
-            maxWidth: '50%'
-        },
-        title: 'Charge anywhere',
-        subtitle: 'Solar charger',
-        description: 'new design and available for any smartphone'
-    }
+    // {
+    //     image: require('../assets/img/charger.png'),
+    //     imageStyle: {
+    //         bottom: '80px',
+    //         right: '40px',
+    //         maxWidth: '50%'
+    //     },
+    //     title: 'Charge anywhere',
+    //     subtitle: 'Solar charger',
+    //     description: 'new design and available for any smartphone'
+    // }
 ]
 
 const Intro = () => {
@@ -40,16 +41,16 @@ const Intro = () => {
                     {data.map((item, idx) => (
                         <CarouselItem key={idx} className="content">
                             <div className="content-text">
-                                <h1 className="title">{item.title}</h1>
-                                <h1 className="subtitle">
+                                <h2 className="title">{item.title}</h2>
+                                <h2 className="subtitle">
                                     {item.subtitle}
                                     <div className="text-line"></div>
-                                </h1>
+                                </h2>
                                 <p className="description mb-4">
                                     {item.description}
                                 </p>
                                 <a href="#">
-                                    <div className="btn-shopnow">Shop Now</div>
+                                    <div className="btn-shopnow">Buy Now</div>
                                 </a>
                             </div>                            
                             <img className="content-image" src={item.image} style={item.imageStyle} />
@@ -57,6 +58,8 @@ const Intro = () => {
                     ))}
                 </Carousel>
             </div>
+
+            <Features />
         </div>
     );
   };

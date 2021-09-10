@@ -2,10 +2,12 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import NavBar from '../components/nav-bar'
 import Intro from '../components/intro'
-import Features from '../components/features'
-import Specification from '../components/specification'
-import HowToUse from '../components/how-to-use'
-import SolarSystem from '../components/solar-system'
+import What from '../components/what'
+import HowWhere from '../components/how-where'
+import Premining from '../components/premining'
+import RoadMap from '../components/roadmap'
+import Team from '../components/team'
+import FAQ from '../components/faq'
 import Footer from '../components/footer'
 
 export default function HomePage() {
@@ -20,10 +22,12 @@ export default function HomePage() {
       
       <NavBar />
       <Intro />
-      <Features />
-      <Specification />
-      <HowToUse />
-      <SolarSystem/>
+      <What />
+      <HowWhere/>
+      <Premining/>
+      <RoadMap/>
+      <Team/>
+      <FAQ/>
       <Footer />
     </div>
   )

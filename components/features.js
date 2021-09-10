@@ -2,21 +2,21 @@ import React, {useState, useEffect} from "react"
 
 const data = [
     {
-        image: require('../assets/img/icon-spec.png'),
-        caption: 'Specifications',
-    },
-    {
         image: require('../assets/img/icon-help.png'),
-        caption: 'How to use',
+        caption: 'What',
     },    
     {
-        image: require('../assets/img/icon-guarantee.png'),
-        caption: 'Guarantee',
-    },    
+        image: require('../assets/img/icon-spec.png'),
+        caption: 'How',
+    },
     {
         image: require('../assets/img/icon-solar.png'),
-        caption: 'Solar',
+        caption: 'Where',
     },
+    {
+        image: require('../assets/img/icon-premining.png'),
+        caption: 'PreMining App',
+    },    
 ]
 
 const Features = () => {

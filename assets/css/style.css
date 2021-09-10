@@ -80,9 +80,8 @@ a, a:hover, a:focus{
 	display: flex;
 }
 
-.navbar-brand h3 {
+.navbar-brand h2 {
 	margin-left: 20px;
-	font-weight: 700;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -110,12 +109,13 @@ a, a:hover, a:focus{
 	background-size: cover;
 	position: relative;
 	overflow: hidden;
+	background-position: center;
 }
 
 .section-intro {
 	margin-top: 100px;
 	background-image: url('../img/bg01.jpg');
-	height: 770px;
+	height: 830px;
 }
 .intro-bg-deco {
 	position: absolute;
@@ -162,7 +162,7 @@ a, a:hover, a:focus{
 
 .intro-content .content {
 	width: 100%;
-	height: 770px;
+	height: 830px;
 	position: relative;
 }
 
@@ -203,17 +203,17 @@ a, a:hover, a:focus{
 }
 
 .content-text .description {
-	max-width: 240px;
+	max-width: 360px;
 	margin-top: 12px;
 	color: white;
 }
 
 .section-features {
 	position: absolute;
-	top: 700px;
+	bottom: 20px;
 	left: 10%;
 	width: 80%;
-	padding: 40px 0px 60px 0px;
+	padding: 16px 0px 24px 0px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
@@ -223,8 +223,8 @@ a, a:hover, a:focus{
 }
 
 .section-spec {
-	padding-top: 400px;
-	padding-bottom: 80px;
+	padding-top: 160px;
+	padding-bottom: 160px;
 }
 
 .spec-content-image {
@@ -233,6 +233,10 @@ a, a:hover, a:focus{
 
 .spec-content-image img {
 	max-width: 80%;
+}
+
+.spec-content {
+	max-width: 480px;
 }
 
 .spec-bg-deco {
@@ -269,26 +273,27 @@ a, a:hover, a:focus{
 	font-weight: 600;
 	font-size: 20px;
 	color: #018ad1;
-	margin-top: 48px;
+	margin-top: 16px;
 }
 
-.section-howtouse {
-	background-image: url('../img/bg01.jpg');
-	padding-bottom: 240px;
+.where-content {
+	position: absolute;
+	bottom: 300px;
+	width: 100%;
 }
 
 .howtouse-bg-deco {
 	position: absolute;
 	width: 60%;
 	left: 0px;
-	top: 0px;
+	top: 560px;
 	mix-blend-mode: color-burn;
 }
 
-.howtouse-bg-line01 {
+.howtouse-bg-line02 {
 	position: absolute;	
-	left: 30px;
-	top: -150px;
+	left: -125px;
+    top: 830px;
 }
 
 .howtouse-content-image {
@@ -305,7 +310,8 @@ a, a:hover, a:focus{
 	margin-top: 80px;
 }
 
-.howtouse-content ul li {
+.howtouse-content p {
+	max-width: 360px;
 	font-size: 16px;
 	margin-bottom: 4px;
 	color: white;
@@ -338,30 +344,19 @@ a, a:hover, a:focus{
 	height: auto;
 }
 
-.questions {	
-	font-size: 24px;
-	font-weight: 600;
-}
-.questions .dropdown {
-	width: 24px;
-	cursor: pointer;
-}
-
-.qa-section .description {
-	font-size: 16px;
-}
-
 .section-system {
 	background-image: url('../img/bg02.jpg');
-	height: 780px;
+	height: 1430px;	
+}
+.system-content {
 	padding-left: 5%;
-	clip-path: polygon(0% 0%, 0% 80%, 50% 100%, 100% 100%, 100% 0%);
+	max-width: 400px;
 }
 
 .system-content .title {
 	position: relative;
 	color: #018ad1;
-	margin-top: 80px;
+	margin-top: 110px;
 }
 
 .system-content ul li {
@@ -373,6 +368,91 @@ a, a:hover, a:focus{
 	padding: 0px;
 }
 
+.section-premining {
+	padding: 90px 0px 45px;
+}
+
+.premining-content .title,
+.roadmap-content .title,
+.team-content .title {
+	position: relative;
+	color: #018ad1;
+}
+.premining-content-image img {
+	max-width: 100%;
+}
+
+.section-roadmap {
+	padding: 45px 5%;
+}
+
+.roadmap-content-image {
+	text-align: center;
+}
+.roadmap-content-image img {
+	max-width: 1297px;
+	width: 100%;
+}
+
+.section-team {
+	padding: 45px 5%;
+}
+
+.team-members {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.member {
+	padding: 30px 15px;
+	font-size: 16px;
+	color: #018ad1;
+}
+
+.section-faq {
+	background-image: url('../img/bg01.jpg');
+	padding: 300px 5% 100px;
+}
+
+.faq-bg-deco {
+	position: absolute;
+	left: -130px;
+	top: 50px;
+	mix-blend-mode: color-burn;
+}
+
+.section-faq .title{
+	position: relative;
+	color: #FFFFFF;
+}
+
+.qa-section {
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+
+.questions {	
+	font-size: 20px;
+	font-weight: 600;
+}
+.questions .dropdown {
+	width: 24px;
+	cursor: pointer;
+	flex: 0 0 auto;
+	margin-left: 24px;
+}
+
+.qa-section .description {
+	font-size: 20px;
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.divider-light {
+	border-color: #FFFFFF;
+	opacity: 0.8;
+}
 /* -------------------------------------------------------
                      Footer 
 -------------------------------------------------------- */

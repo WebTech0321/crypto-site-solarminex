@@ -8,6 +8,7 @@ const What = () => {
 
     return (
         <div className="section section-spec">
+            <a className="anchor" id="what" />
             <img src={imgDeco} className="spec-bg-deco" />
             <img src={imgLine03} className="spec-bg-line03" />
             <div className="row">

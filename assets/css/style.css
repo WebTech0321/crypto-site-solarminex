@@ -481,6 +481,13 @@ a, a:hover, a:focus{
 	border-color: #FFFFFF;
 	opacity: 0.8;
 }
+
+.anchor {
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
+}
 /* -------------------------------------------------------
                      Footer 
 -------------------------------------------------------- */

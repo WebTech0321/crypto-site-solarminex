@@ -33,6 +33,7 @@ const HowWhere = () => {
     return (
         <div className="section section-system" ref={container} style={{height: `${containerHeight}px`}}>
             <div className="system-content">
+                <a className="anchor" id="how" />
                 <h1 className="title mb-3">
                     How
                     <div className="text-line text-line2"></div>                        
@@ -51,6 +52,7 @@ const HowWhere = () => {
             <img src={imgLine02} className="howtouse-bg-line02" />
 
             <div className="where-content">
+                <a className="anchor" id="where" />
                 <div className="row">
                     <div className="howtouse-content-image col-md-7 col-12">
                         <img src={imgCharger} />

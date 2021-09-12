@@ -5,6 +5,7 @@ const RoadMap = () => {
 
     return (
         <div className="section section-roadmap">
+            <a className="anchor" id="roadmap" />
             <div className="roadmap-content">
                 <h1 className="title mb-3">
                     Road Map

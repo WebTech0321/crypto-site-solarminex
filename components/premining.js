@@ -4,7 +4,8 @@ import imgPreminingApp from '../assets/img/premining.png'
 const Premining = () => {
 
     return (
-        <div className="section section-premining">
+        <div className="section section-premining">            
+            <a className="anchor" id="premining" />
             <div className="row">
                 <div className="premining-content col-md-7 col-12">
                     <div className="row justify-content-center">

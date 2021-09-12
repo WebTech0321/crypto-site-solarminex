@@ -24,7 +24,7 @@ const NavBar = () => {
             <B4Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="nav navbar-nav" as="ul">
                     <Nav.Item as="li">
-                        <Nav.Link href="#products">Road Map</Nav.Link>
+                        <Nav.Link href="#roadmap">Road Map</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
                         <Nav.Link href="#buynow">Whitepaper</Nav.Link>

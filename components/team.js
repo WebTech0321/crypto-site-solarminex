@@ -6,12 +6,12 @@ const team = [
         avatar: require('../assets/img/team-asli.jpg')
     },
     {
-        name: 'GÜNNUR OĞUZ',
-        avatar: require('../assets/img/team-gunnur.jpg')
-    },
-    {
         name: 'MUSTAFA YALÇIN',
         avatar: require('../assets/img/team-mustafa.jpg')
+    },
+    {
+        name: 'AV. GÜNNUR OĞUZ',
+        avatar: require('../assets/img/team-gunnur.jpg')
     },
     {
         name: 'SEDAT ALTINKAYA',

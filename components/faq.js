@@ -4,20 +4,20 @@ import imgDeco from '../assets/img/decoration.png'
 
 const dataQA = [
     {
-        title: "SolarMineX güneş madenciliğini kimler yapabilir?",
-        description: "SolarMineX madenciliğini halihazırda fotovoltaik güneş enerjisi sistemi olan ve/veya<br/>SolarMineX Mobil Güneş Madenciliği Cihazı olan herkes yapabilir."
+        title: "Who can do SolarMineX solar mining?",
+        description: "Anyone who already has a solar photovoltaic system and/or SolarMineX Mobile Solar Mining Device can mine SolarMineX."
     },
     {
-        title: "SolarMineX güneş madenciliği nerelerde yapılabilir?",
-        description: "SolarMineX güneş madenciliği yeryüzünde güneş ışınlarını alan her yerde yapılabilir. Ev ve işyerlerinde kurulu olan fotovoltaik güneş enerjisi sistemine ek olarak SolarMineX Mobil Güneş Madenciliği cihazından edinilmesi halinde seyahat halindeyken, plajda keyif yaparken veya yolda yürürken dahi madencilik yapılabilir."
+        title: "Where can SolarMineX solar mining be done?",
+        description: "SolarMineX solar mining can be done anywhere receives sunlight.<br/>In addition to the photovoltaic solar energy system installed in homes and workplaces, in case of obtaining from the SolarMineX Mobile Solar Mining device mining can even be done while traveling, enjoying the beach or walking on the road."
     },
     {
-        title: "SolarMineX güneş madenciliğinde madencilik riglerine ve ekran kartlarına ihtiyaç duyuluyor mu?",
-        description: "Hayır. SolarMineX güneş madenciliğinde pahalı madencilik rigleri, ekran kartları veya bilgisayarlarına ve megawattlarca elektrik harcanmasına gerek yoktur. Bu SolarMineX güneş madenciliğinin doğasına aykırıdır. SolarMineX güneş madenciliği elektrik tüketmeyi değil zararsız bir yöntem olan güneş enerjisi ile elektrik üretmeyi amaçlar."
+        title: "Are mining rigs and graphics cards needed in SolarMineX solar mining?",
+        description: "No. SolarMineX solar mining does not require expensive mining rigs, graphics cards or computers and megawatts of electricity. This is against the nature of SolarMineX solar mining. SolarMineX solar mining aims not to consume electricity, but to generate electricity with solar energy with a harmless method."
     },
     {
-        title: "SolarMineX güneş madenciliğinde madencilik ödülü neye göre dağıtılıyor?",
-        description: "SolarMineX’in eşsiz formülü sayesinde üretilen her birim elektrik için madencilik ödülü verilir.<br/>Daha çok elektrik üreten daha çok madencilik ödülü kazanır."
+        title: "How is the mining reward distributed in SolarMineX solar mining?",
+        description: "Thanks to the unique formula of SolarMineX, mining rewards are given equally for each unit of electricity produced. More mining that generates more electricity earns more."
     }
 ]
 

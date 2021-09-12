@@ -15,14 +15,7 @@ const Premining = () => {
                                 <div className="text-line text-line2"></div>                        
                             </h1>
                             <p>
-                                SolarMineX toplumu güneş enerjisi ile nasıl kazanç sağlayabilecekleri ve çevreyi
-                                korumada nasıl yardımcı olabilecekleri hususunda bilgilendirmek için oyunlaştırma
-                                yöntemi ile bir mobil uygulama geliştiriyor.
-                                Bu uygulama ile insanlar sanal olarak güneş madenciliği yapabilecek, güneş
-                                enerjisinden elektrik üretebilecek, elektriği depolayabilecek ve tüm bu süreçte
-                                SolarMineX token kazanacaktır. Bunların dışında güneş enerjisinin bireysel ekonomi
-                                ve çevre açısından yararları hakkında bilgi sahibi olacak ve daha bilinçli bireyler
-                                haline geleceklerdir.
+                                SolarMineX is developing a mobile application with gamification method to inform the people about how they can make a profit with solar energy and how they can help protect the environment. With this application, people will be able to virtually mine solar, generate electricity from solar energy, store electricity and earn SolarMineX tokens in the whole process. In addition, they will learn about the benefits of solar energy in terms of individual economy and environment and they will become more conscious individuals.
                             </p>
                         </div>
                     </div>

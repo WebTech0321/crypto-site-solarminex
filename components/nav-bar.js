@@ -27,7 +27,7 @@ const NavBar = () => {
                         <Nav.Link href="#roadmap">Road Map</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav.Link href="#buynow">Whitepaper</Nav.Link>
+                        <Nav.Link href="/pdf/whitepaper.pdf">Whitepaper</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
                         <Nav.Link href="#solarbag">ICO details</Nav.Link>

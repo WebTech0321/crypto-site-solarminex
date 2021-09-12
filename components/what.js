@@ -23,12 +23,7 @@ const What = () => {
                                 <div className="text-line text-line2"></div>                        
                             </h1>
                             <p>
-                                SolarMineX güneşten gelen enerjiyi kazanca
-                                dönüştürmek ve fosil yakıtların çevreye
-                                olan zararını azaltmak amacıyla ortaya çıkmış
-                                yeni bir kripto para madenciliği sistemidir.
-                                Madenciler güneşten gelen enerji ile ürettikleri
-                                her birim elektrik için madencilik ödülü alırlar.
+                                SolarMineX is a new cryptocurrency mining system who aims to convert the energy from the sun into profit and to reduce the harm of fossil fuels to the environment. Miners receive mining rewards for each unit of electricity they produce using sun.
                             </p>
                         </div>
                     </div>

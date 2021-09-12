@@ -39,12 +39,7 @@ const HowWhere = () => {
                     <div className="text-line text-line2"></div>                        
                 </h1>
                 <p>
-                    SolarMineX güneş madenciliği geleneksel
-                    fotovoltaik sistemlere ve/veya SolarMineX
-                    mobil güneş madenciliği cihazına sahip
-                    olan kişiler tarafından yapılabilir. Güneş
-                    enerjisi ile elektrik üretmek suretiyle
-                    madencilik ödülü kazanılır.
+                    People can do SolarMinex solar mining by owning conventional photovoltaic systems and/or SolarMineX mobile solar mining equipment. They earn mining rewards by generating electricity with solar energy.
                 </p>
             </div>
 
@@ -65,12 +60,7 @@ const HowWhere = () => {
                                     <div className="text-line text-line2"></div>                        
                                 </h1>
                                 <p>
-                                    Güneş ışınlarını az veya çok alabilen her yerde
-                                    yapılabilir. İster fotovoltaik sistem ile ev ve
-                                    işyerinizde isterse SolarMineX mobil güneş
-                                    madenciliği cihazı ile yürürken, koşarken,
-                                    yüzerken, seyahat ederken ya da mobilize
-                                    herhangi bir haldeyken madencilik yapılabilir.
+                                    It can be done anywhere that can receive sunlight. With the photovoltaic system, mining can be done at home or at work or while walking, running, swimming, traveling or in any mobilized state with the SolarMineX mobile solar mining device.
                                 </p>
                             </div>
                         </div>

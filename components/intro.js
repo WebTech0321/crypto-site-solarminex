@@ -12,21 +12,21 @@ const data = [
             bottom: '0px',
             right: '0px'
         },
-        title: 'Fotovoltaik sistem ile',
-        subtitle: 'kripto para madenciliği',
-        description: 'Güneşten gelen enerjiyi SolarMineX tokene dönüştürerek madencil'
+        title: 'Cryptocurrency mining with ',
+        subtitle: 'photovoltaic system',
+        description: 'Earn mining rewards by converting energy from the sun into SolarMineX tokens!'
     },
-    // {
-    //     image: require('../assets/img/charger.png'),
-    //     imageStyle: {
-    //         bottom: '80px',
-    //         right: '40px',
-    //         maxWidth: '50%'
-    //     },
-    //     title: 'Charge anywhere',
-    //     subtitle: 'Solar charger',
-    //     description: 'new design and available for any smartphone'
-    // }
+    {
+        image: require('../assets/img/charger.png'),
+        imageStyle: {
+            bottom: '80px',
+            right: '40px',
+            maxWidth: '50%'
+        },
+        title: 'Cryptocurrency mining with ',
+        subtitle: 'mobile system',
+        description: 'Earn mining rewards by converting energy from the sun into SolarMineX tokens!'
+    }
 ]
 
 const Intro = () => {

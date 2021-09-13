@@ -3,23 +3,23 @@ import React, {useState, useEffect} from "react"
 const team = [
     {
         name: 'ASLI BİRTÜRK',
-        avatar: require('../assets/img/team-asli.jpg')
+        avatar: require('../assets/img/aslibirturk.png')
     },
     {
         name: 'MUSTAFA YALÇIN',
-        avatar: require('../assets/img/team-mustafa.jpg')
+        avatar: require('../assets/img/msutafayalcin.png')
     },
     {
         name: 'AV. GÜNNUR OĞUZ',
-        avatar: require('../assets/img/team-gunnur.jpg')
+        avatar: require('../assets/img/gunnuroguz.png')
     },
     {
         name: 'SEDAT ALTINKAYA',
-        avatar: require('../assets/img/team-sedat.jpg')
+        avatar: require('../assets/img/sedataltinkaya.png')
     },
     {
         name: 'YASİN ÖZEN',
-        avatar: require('../assets/img/team-yasin.jpg')
+        avatar: require('../assets/img/yasinozen.png')
     },
 ]
 
@@ -36,7 +36,6 @@ const Team = () => {
                 <div className="team-members">
                     {team.map((member, idx) => (
                         <div key={idx} className="member">
-                            <div>{member.name}</div>
                             <img src={member.avatar} />
                         </div>
                     ))}

@@ -437,6 +437,10 @@ a, a:hover, a:focus{
 	color: #018ad1;
 }
 
+.member img {
+	width: 40%;
+}
+
 .section-faq {
 	background-image: url('../img/bg01.jpg');
 	padding: 300px 5% 100px;

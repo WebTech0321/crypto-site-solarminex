@@ -9,7 +9,26 @@ import RoadMap from '../components/roadmap'
 import Team from '../components/team'
 import FAQ from '../components/faq'
 import Footer from '../components/footer'
+import Video from '../components/Video'
+import {
+  videoDesktopMp4,
+  videoMobileMp4,
+} from "../assets/video";
 
+const videoSrc = {
+      mobile: [
+          {
+              src: videoMobileMp4,
+              type: 'video/webm'
+          }
+      ],
+      desktop: [
+          {
+              src: videoDesktopMp4,
+              type: 'video/webm'
+          }
+      ]
+}
 export default function HomePage() {
 
   return (
@@ -21,7 +40,8 @@ export default function HomePage() {
       </Head>
       
       <NavBar />
-      <Intro />
+      <Video source={videoSrc} />
+      {/* <Intro /> */}
       <What />
       <HowWhere/>
       <Premining/>

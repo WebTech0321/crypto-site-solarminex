@@ -438,7 +438,7 @@ a, a:hover, a:focus{
 }
 
 .member img {
-	width: 40%;
+	width: 100%;
 }
 
 .section-faq {
@@ -491,6 +491,11 @@ a, a:hover, a:focus{
 	position: relative;
 	top: -100px;
 	visibility: hidden;
+}
+
+.bg-video video {
+	margin-top: 100px;
+	width: 100%;
 }
 /* -------------------------------------------------------
                      Footer 

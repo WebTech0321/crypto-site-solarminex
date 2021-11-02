@@ -1,9 +1,12 @@
 const withImages = require('next-images')
+const withVideos = require('next-videos')
 const path = require('path')
 
 module.exports = 
-    withImages({
-        sassOptions: {
-            includePaths: [path.join(__dirname, 'styles')],
-        }
-    })
+    withVideos(
+        withImages({
+            sassOptions: {
+                includePaths: [path.join(__dirname, 'styles')],
+            }
+        })
+    )
